@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Footer from "../components/Footer";
 const Adventure = () => {
   return (
-    <div>Adventure</div>
+    <div><Footer /></div>
   )
 }
 
