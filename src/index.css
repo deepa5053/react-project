@@ -30,8 +30,19 @@ h1, h4, p,
 .btn-cancel{
   background: transparent;
   color: aliceblue;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
 }
 .btn-start:hover {
+  background: gray;
+  color: aliceblue;
+  transition: 0.3s;
+}
+.btn-cancel:hover {
   background: gray;
   color: aliceblue;
   transition: 0.3s;
