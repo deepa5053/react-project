@@ -1,7 +1,6 @@
 import "./backgroundimgStyles.css";
-
+import introimg from "../assets/image.jpeg"
 import React from 'react';
-import introimg from "../assets/image.jpeg";
 import { Link } from "react-router-dom";
 
 
