@@ -14,6 +14,13 @@ const eeveeAttack = () => {
 const pikachuAttack = () => {
   seteeveeHP(eeveeHP - 25)
 }
+const container = document.querySelector('.container')
+if (eeveeHP <= 0) {
+  container.innerHTML = 'Eevee wins!!'
+}
+if (pikachuHP <= 0) {
+  container.innerHTML = 'Pikachu wins!!'
+}
 
   return (
     <>
