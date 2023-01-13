@@ -1,0 +1,23 @@
+.pic{
+    height: 20%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-left: 3rem;
+}
+.name{
+    font-size: 3rem;
+    padding-left: 2rem;
+    margin-left: 3rem;
+}
+.hp, .btn{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    border-radius: 20px;
+}
+.btn:hover{
+color: aqua;
+background-color: black;
+}
