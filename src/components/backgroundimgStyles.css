@@ -32,6 +32,10 @@
 }
 .content .btn-start{
     margin: 1rem 2rem;
+    border-radius: 1rem;
+}
+.btn-cancel{
+    border-radius: 1rem;
 }
 @media screen and (max-width:640px) {
     .back .content h1{

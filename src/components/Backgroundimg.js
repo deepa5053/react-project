@@ -12,7 +12,7 @@ const backgroundimg = () => {
     </div>
     <div className="content">
         <p> Wlecome to the Gaming World</p>
-        <h1>Find a Friend</h1>
+        <h1>Let's start the game</h1>
         <div>
             <Link to="/Adventure" className="btn-start">Start</Link>
             <Link to="/" className="btn-cancel">Cancel</Link>
